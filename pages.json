@@ -1,0 +1,135 @@
+{
+	// "easycom": {
+	// 	"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	// },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "课程视频",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/works/works",
+			"style": {
+				"navigationBarTitleText": "作品展示",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/shop",
+			"style": {
+				"navigationBarTitleText": "门店详情",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/index/class",
+			"style": {
+				"navigationBarTitleText": "课程详情",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/index/make",
+			"style": {
+				"navigationBarTitleText": "预约成功",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/works/workShow",
+			"style": {
+				"navigationBarTitleText": "作品详情",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/works/upload",
+			"style": {
+				"navigationBarTitleText": "发布作品",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/works/cg",
+			"style": {
+				"navigationBarTitleText": "发布成功",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/my/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": true //开启刷新功能
+			}
+		},
+		{
+			"path": "pages/my/vip",
+			"style": {
+				"navigationBarTitleText": "会员实名认证",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/my/myVip",
+			"style": {
+				"navigationBarTitleText": "我的会员",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#808080",
+		"selectedColor": "#7E5444",
+		"backgroundColor": "white",
+		"borderStyle": "white",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/1111.png",
+				"selectedIconPath": "static/image/11111.png"
+			},
+			{
+				"text": "课程视频",
+				"pagePath": "pages/video/video",
+				"iconPath": "static/image/2222.png",
+				"selectedIconPath": "static/image/22222.png"
+			},
+			{
+				"text": "作品展示",
+				"pagePath": "pages/works/works",
+				"iconPath": "static/image/3333.png",
+				"selectedIconPath": "static/image/33333.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "./static/image/4444.png",
+				"selectedIconPath": "./static/image/44444.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

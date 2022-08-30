@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "课程详情",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "uni-calendar": "/uni_modules/uni-calendar/components/uni-calendar/uni-calendar"
+  }
+}

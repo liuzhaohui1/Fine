@@ -1,0 +1,114 @@
+
+page {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(247, 247, 247);
+}
+scroll-view {
+	width: 100%;
+	height: 1300rpx;
+	background-color: rgb(247, 247, 247);
+}
+.content {
+	width: 100%;
+	background-color: white;
+	padding-left: 30rpx;
+	padding-top: 30rpx;
+}
+.content>view:nth-child(1) {
+	display: flex;
+}
+.content>view:nth-child(1)>image {
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+}
+.content>view:nth-child(1)>view {
+	margin-left: 30rpx;
+}
+.content>view:nth-child(1)>view>text:nth-child(1) {
+	font-size: 28rpx;
+	font-family: PingFang SC;
+	font-weight: bold;
+	color: #000000;
+	display: block;
+	margin-top: 4rpx;
+}
+.content>view:nth-child(1)>view>text:nth-child(2) {
+	font-size: 24rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #999999;
+}
+.content>text:nth-child(2) {
+	display: block;
+	width: 90%;
+	font-size: 32rpx;
+	font-family: PingFang SC;
+	color: #333333;
+	display: block;
+	margin-top: 30rpx;
+	margin-bottom: 10rpx;
+}
+.picture {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.picture>image {
+	width: 220rpx;
+	height: 220rpx;
+	border-radius: 20rpx;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
+}
+.picture>image:nth-child(3n+1) {
+	width: 220rpx;
+	height: 220rpx;
+	border-radius: 20rpx;
+	margin-left: 0rpx;
+}
+.comment {
+	width: 100%;
+	height: 90rpx;
+	position: absolute;
+	left: 0rpx;
+	background-color: white;
+}
+.comment>view:nth-child(1) {
+	width: 92%;
+	border-top: 1rpx solid rgb(230, 230, 230);
+	margin: auto;
+	margin-top: 20rpx;
+	display: flex;
+	justify-content: space-around;
+	line-height: 64rpx;
+}
+.comment>view:nth-child(1)>view>image {
+	width: 28rpx;
+	height: 26rpx;
+	vertical-align: middle;
+}
+.comment>view:nth-child(1)>view>text {
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #999999;
+	margin-left: 10rpx;
+	vertical-align: middle;
+}
+.upload>image {
+	position: fixed;
+	top: 800rpx;
+	right: 10rpx;
+	width: 140rpx;
+	height: 140rpx;
+	border-radius: 50%;
+}
+.bac {
+	width: 100%;
+	height: 115rpx;
+	background-color: rgb(247, 247, 247);
+	margin-left: -50rpx;
+}
+

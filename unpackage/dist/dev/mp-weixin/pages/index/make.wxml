@@ -1,0 +1,1 @@
+<view class="content"><image src="../../static/image/wancheng.png" mode></image><text>您已成功提交申请</text><button data-event-opts="{{[['tap',[['back',['$event']]]]]}}" bindtap="__e">返回</button></view>

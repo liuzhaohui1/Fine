@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "会员实名认证",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "uni-data-select": "/uni_modules/uni-data-select/components/uni-data-select/uni-data-select"
+  }
+}

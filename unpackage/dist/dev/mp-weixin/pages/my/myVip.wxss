@@ -1,0 +1,111 @@
+
+page {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(247, 247, 247);
+}
+.img {
+	width: 96%;
+	position: relative;
+	margin: 20rpx auto;
+}
+.img>image {
+	width: 100%;
+	height: 400rpx;
+	display: block;
+	margin: auto;
+	margin-top: 10rpx;
+}
+.vip {
+	font-size: 32rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #DA9337;
+	position: absolute;
+	top: 180rpx;
+	left: 13%;
+}
+.vip1 {
+	font-size: 32rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #DA9337;
+	position: absolute;
+	top: 180rpx;
+	left: 9%;
+}
+.vip2 {
+	font-size: 32rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #DA9337;
+	position: absolute;
+	top: 180rpx;
+	left: 32%;
+}
+.vipTime {
+	font-size: 28rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #DA9337;
+	position: absolute;
+	top: 350rpx;
+	left: 11%
+}
+.vipTime1 {
+	font-size: 28rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #DA9337;
+	position: absolute;
+	top: 350rpx;
+	left: 27%
+}
+.order>text:nth-child(1) {
+	font-size: 32rpx;
+	font-family: PingFang SC;
+	font-weight: bold;
+	color: #1A1A1A;
+	display: block;
+	width: 92%;
+	margin: 30rpx auto;
+}
+.user1 {
+	width: 87%;
+	height: 100%;
+	margin: auto;
+	margin-top: 30rpx;
+	padding: 30rpx;
+	border-radius: 20rpx;
+	background-color: white;
+	overflow: hidden;
+}
+.user1>view:nth-child(1) {
+	display: flex;
+	justify-content: space-between;
+	font-size: 30rpx;
+	margin-left: 10rpx;
+}
+.user1>view:nth-child(1)>text:nth-child(1) {
+	font-size: 30rpx;
+	font-weight: 550;
+}
+.user1>view:nth-child(1)>text:nth-child(2) {
+	font-size: 30rpx;
+	color: #CDA67F;
+}
+.user1>view:nth-child(2) {
+	margin-top: 30rpx;
+}
+.user1>view:nth-child(2)>view {
+	margin-top: 10rpx;
+	margin-left: 10rpx;
+}
+.user1>view:nth-child(2)>view>text:nth-child(1) {
+	font-size: 30rpx;
+}
+.user1>view:nth-child(2)>view>text:nth-child(2) {
+	font-size: 30rpx;
+	color: gray;
+}
+
